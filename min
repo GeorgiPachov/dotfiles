@@ -1,0 +1,1 @@
+awk 'BEGIN{a=999999}{if ($1<0+a) a=$1} END{print a}'

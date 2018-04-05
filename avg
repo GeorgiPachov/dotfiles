@@ -1,0 +1,1 @@
+awk '{ total += $1; count++ } END { printf "%.2f", total/count }' 
